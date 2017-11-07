@@ -1,3 +1,6 @@
+package leetcode;
+import java.util.List;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -7,7 +10,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class BinaryTreePreorderTraversal {
     public List<Integer> preorderTraversal(TreeNode root) {
         java.util.Stack<TreeNode> st = new java.util.Stack<TreeNode>();
         List<Integer> result = new java.util.ArrayList<Integer>();

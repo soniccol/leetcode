@@ -1,5 +1,7 @@
-public class Solution {
-    public int singleNumber(int[] nums) {
+package leetcode;
+public class SingleNumberII{
+	public int singleNumber(int[] nums) {
+    	
     	java.util.Map<Integer, Integer> map = new java.util.HashMap<Integer, Integer>();
     	for(int i=0;i<nums.length;i++){
     		Integer data=map.get(nums[i]);

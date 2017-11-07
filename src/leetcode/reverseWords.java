@@ -7,8 +7,6 @@ public class reverseWords {
 		System.out.println(reverseWords.reverseWords("the sky is blue"));
 		System.out.println(reverseWords.reverseWords(" 1"));
 		System.out.println(reverseWords.reverseWords("   a   b "));
-		   
-		
 	}
 
     public String reverseWords(String s) {

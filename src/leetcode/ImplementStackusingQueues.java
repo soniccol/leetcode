@@ -1,4 +1,5 @@
-class MyStack {
+package leetcode;
+class ImplementStackusingQueues {
 	
 	java.util.Queue<Integer> q1=new java.util.LinkedList<Integer>();
 	java.util.Queue<Integer> q2=new java.util.LinkedList<Integer>();

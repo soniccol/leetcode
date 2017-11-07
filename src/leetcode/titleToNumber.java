@@ -1,5 +1,4 @@
 package leetcode;
-
 public class titleToNumber {
 
 	public static void main(String[] args) {

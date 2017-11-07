@@ -3,11 +3,11 @@ package leetcode;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PascalTriangle {
+public class PascalTriangle2 {
 
 	public static void main(String[] args) {
-		PascalTriangle PascalTriangle = new PascalTriangle();
-		System.out.println(PascalTriangle.getRow(30));
+		PascalTriangle2 PascalTriangle2 = new PascalTriangle2();
+		System.out.println(PascalTriangle2.getRow(30));
 	}
 	
 	public List<List<Integer>> generate(int numRows) {

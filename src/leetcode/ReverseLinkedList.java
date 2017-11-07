@@ -1,3 +1,4 @@
+package leetcode;
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -6,7 +7,7 @@
  *     ListNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class ReverseLinkedList {
     public ListNode reverseList(ListNode head) {
         if(head==null) return head;
     	if(head.next==null) return head;

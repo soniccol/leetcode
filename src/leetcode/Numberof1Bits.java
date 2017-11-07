@@ -1,3 +1,4 @@
+package leetcode;
 public class Numberof1Bits {
 
 	public static void main(String[] args) {
