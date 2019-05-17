@@ -1,4 +1,5 @@
-class MyQueue {
+package leetcode;
+class ImplementQueueusingStacks {
     
     
 	java.util.Stack<Integer> inbox=new java.util.Stack<Integer>();

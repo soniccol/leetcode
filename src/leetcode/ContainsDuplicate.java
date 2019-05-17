@@ -1,4 +1,5 @@
-public class Solution {
+package leetcode;
+public class ContainsDuplicate {
     public boolean containsDuplicate(int[] nums) {
         if(nums.length==0||nums.length==1) return false;
         
