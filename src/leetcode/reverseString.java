@@ -1,3 +1,4 @@
+package leetcode;
 class reverseString {
     public void reverseString(char[] s) {
         int front=0;
