@@ -6,18 +6,24 @@ import java.util.concurrent.ArrayBlockingQueue;
 
 public class PlusOne {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		PlusOne PlusOne = new PlusOne();
-//		int array[]={1,2,3,4,5,6,7,8,9,9,9};
-		int array[]={9,9,9};
-		int result[]=PlusOne.plusOne(array);
-		for(int i:result){
-			System.out.print(i+"\t");
-		}
-		
-	}
-    public int[] plusOne(int[] digits) {
+     public int[] plusOne(int[] digits) {
+        for(int i=digits.length-1;i>=0;i--){                       
+            digits[i]++;
+            if((digits[i]/10)==0){
+                return digits;
+            }else{
+                if(i==0){
+                    int result[]=new int[digits.length+1];
+                    result[i]=1;
+                    return result;                    
+                }
+                digits[i]=0;
+            }            
+        }
+        return digits;
+    }
+
+    public int[] plusOneOld(int[] digits) {
     	int c=1;
     	List<Integer> templist=new ArrayList<Integer>();
     	for(int i=digits.length-1;i>=0;i--){
