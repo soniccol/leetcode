@@ -6,6 +6,7 @@ import java.util.concurrent.ArrayBlockingQueue;
 
 public class PlusOne {
 
+     //A better version of plusOne compared to plusOneOld
      public int[] plusOne(int[] digits) {
         for(int i=digits.length-1;i>=0;i--){                       
             digits[i]++;
