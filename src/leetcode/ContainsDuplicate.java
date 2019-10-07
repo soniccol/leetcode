@@ -15,7 +15,7 @@ public class ContainsDuplicate {
     }
     
     //Time Complexity O(nlogn), Space Complexity O(1)
-    public boolean containsDuplicate(int[] nums) {
+    public boolean containsDuplicate2(int[] nums) {
         Arrays.sort(nums);    
         for(int i=1;i<nums.length;i++){
             if(nums[i]==nums[i-1]) return true;
@@ -24,7 +24,7 @@ public class ContainsDuplicate {
     }
     
     //Time Complexity O(n), Space Complexity O(n)
-    public boolean containsDuplicate(int[] nums) {
+    public boolean containsDuplicate3(int[] nums) {
         
         Set set = new HashSet();
         for(int i=0;i<nums.length;i++){
